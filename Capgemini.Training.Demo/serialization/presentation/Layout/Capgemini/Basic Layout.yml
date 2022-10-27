@@ -1,0 +1,18 @@
+﻿---
+ID: "40c4e2d2-03ae-4bff-bf81-e552cd692c86"
+Parent: "e68f81f6-8aaf-48d9-8959-e7dfb11421b6"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Capgemini/Basic Layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Capgemini/Layouts/BasicLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221018T094607Z

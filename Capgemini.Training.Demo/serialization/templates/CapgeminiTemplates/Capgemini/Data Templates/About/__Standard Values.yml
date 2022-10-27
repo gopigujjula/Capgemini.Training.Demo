@@ -1,0 +1,25 @@
+﻿---
+ID: "cb5f27c8-7ac6-4267-9493-5f31a6b2dc6f"
+Parent: "d7f41029-786c-4415-b3a0-e29b1abf166e"
+Template: "d7f41029-786c-4415-b3a0-e29b1abf166e"
+Path: /sitecore/templates/Project/Capgemini/Data Templates/About/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221019T085634Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

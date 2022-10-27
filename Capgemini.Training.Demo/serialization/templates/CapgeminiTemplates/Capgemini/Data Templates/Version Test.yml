@@ -1,0 +1,22 @@
+﻿---
+ID: "d8194716-3bf1-4cf0-9fb4-598dfb468e8d"
+Parent: "19d88547-3364-4554-86b8-a0196a9777d2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Capgemini/Data Templates/Version Test
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{E63A20BE-2CF8-4AF8-B352-F1C6266529CB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221025T080555Z

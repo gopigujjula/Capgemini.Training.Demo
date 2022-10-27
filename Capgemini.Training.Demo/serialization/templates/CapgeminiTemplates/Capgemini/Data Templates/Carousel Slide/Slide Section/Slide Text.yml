@@ -1,0 +1,21 @@
+﻿---
+ID: "4b9ab9bc-7264-4180-a285-7708d14b242a"
+Parent: "ab1d609e-fea1-417d-9e18-b02049bd4009"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Capgemini/Data Templates/Carousel Slide/Slide Section/Slide Text
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T103409Z

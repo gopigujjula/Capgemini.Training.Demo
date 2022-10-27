@@ -1,0 +1,18 @@
+﻿---
+ID: "3beb8d2e-5827-48b1-84d1-46eee539e583"
+Parent: "67b1cb6d-f599-490d-8443-a01988826bac"
+Template: "67b1cb6d-f599-490d-8443-a01988826bac"
+Path: /sitecore/templates/Project/Capgemini/Data Templates/Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T103541Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

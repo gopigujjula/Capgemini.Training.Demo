@@ -1,0 +1,25 @@
+﻿---
+ID: "99fd2c90-d92c-4c4b-b46e-3a92424dc643"
+Parent: "60cdd68d-1c6a-4fad-b3c0-482b26e77784"
+Template: "60cdd68d-1c6a-4fad-b3c0-482b26e77784"
+Path: /sitecore/templates/Project/Capgemini/Folder Templates/Carousel Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {67B1CB6D-F599-490D-8443-A01988826BAC}
+    {60CDD68D-1C6A-4FAD-B3C0-482B26E77784}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T104128Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

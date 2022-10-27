@@ -1,0 +1,21 @@
+﻿---
+ID: "0cd0569b-e301-4d55-a03a-b1cab546f6ef"
+Parent: "1f371c4f-44b3-464e-97e1-4df0b5a269fa"
+Template: "1f371c4f-44b3-464e-97e1-4df0b5a269fa"
+Path: /sitecore/templates/Project/Capgemini/Folder Templates/About Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {D7F41029-786C-4415-B3A0-E29B1ABF166E}
+    {1F371C4F-44B3-464E-97E1-4DF0B5A269FA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221019T085758Z

@@ -1,0 +1,36 @@
+﻿@using Capgemini.Training.Demo.Models;
+@model CarouselModel
+
+@if (Model != null && Model.Slides != null && Model.Slides.Count > 0)
+{
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (var counter = 0; counter < Model.Slides.Count; counter++)
+                {
+                    var activeClass = counter == 0 ? "active" : String.Empty;
+                    <div class="carousel-item @activeClass">                        
+                        @Model.Slides[counter].SlideImage
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <i class="fa fa-home fa-4x text-primary mb-4 d-none d-sm-block"></i>
+                                <h1 class="display-2 text-uppercase text-white mb-md-4">@Model.Slides[counter].SlideTitle</h1>                                
+                                @Model.Slides[counter].SlideLink
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">@Model.PrevButtonText</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">@Model.NextButtonText</span>
+            </button>
+        </div>
+    </div>
+}
