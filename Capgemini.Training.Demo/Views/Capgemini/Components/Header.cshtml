@@ -30,13 +30,14 @@
                         foreach (var navigationItem in Model.NavigationItems)
                         {
                             <a href="@LinkManager.GetItemUrl(navigationItem)" class="nav-item nav-link">
-                                @*@Html.Sitecore().Field("Navigation Title", navigationItem)*@
-                                @navigationItem.Name
-                            </a>
-                        }
-                    }
-                    @Html.Sitecore().Field("Contact us", Model.HeaderDatasource, new { @class = "nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block" })
-                </div>
+                                @*<a href="@navigationItem.Url" class="nav-item nav-link">*@
+                                    @*@Html.Sitecore().Field("Navigation Title", navigationItem)*@
+                                    @navigationItem.Name
+                                </a>
+                                }
+                                }
+                                @Html.Sitecore().Field("Contact us", Model.HeaderDatasource, new { @class = "nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block" })
+</div>
             </div>
         </nav>
     </div>

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Training.Demo", "Capgemini.Training.Demo\Capgemini.Training.Demo.csproj", "{762B145D-0B2F-4A1E-BDE8-AFF483B06807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Base", "Capgemini.Base\Capgemini.Base.csproj", "{060763EA-981D-458C-AEA7-813DDBBD72CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{762B145D-0B2F-4A1E-BDE8-AFF483B06807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762B145D-0B2F-4A1E-BDE8-AFF483B06807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762B145D-0B2F-4A1E-BDE8-AFF483B06807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060763EA-981D-458C-AEA7-813DDBBD72CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060763EA-981D-458C-AEA7-813DDBBD72CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060763EA-981D-458C-AEA7-813DDBBD72CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060763EA-981D-458C-AEA7-813DDBBD72CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

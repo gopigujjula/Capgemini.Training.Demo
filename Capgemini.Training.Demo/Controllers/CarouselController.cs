@@ -15,7 +15,7 @@ namespace Capgemini.Training.Demo.Controllers
         // GET: Carousel
         public ActionResult Index()
         {
-            var datasource = RenderingContext.Current.Rendering.Item;//carousel item
+            var datasource = RenderingContext.Current.Rendering?.Item;//carousel item
             //var nextText = datasource.Fields["Next Button Text"].Value;
             //var previousText = datasource.Fields["Previous Button Text"].Value;
             
@@ -25,13 +25,13 @@ namespace Capgemini.Training.Demo.Controllers
             var slideCountParameter = RenderingContext.Current.Rendering.Parameters["SlideCount"];
             int.TryParse(slideCountParameter, out int result);            
 
-            MultilistField slidesField = datasource.Fields["Slides"];
-            var slideItems = slidesField.GetItems();//carousel slide items
+            MultilistField slidesField = datasource?.Fields["Slides"];
+            var slideItems = slidesField?.GetItems();//carousel slide items
             int slideCount = result == 0 ? slideItems.Count() : result;
 
             List<SlideModel> slides = new List<SlideModel>();
             //Sitecore.Context.Language
-            foreach (var slideItem in slideItems.Take(slideCount))
+            foreach (var slideItem in slideItems?.Take(slideCount))
             {
                 slides.Add(new SlideModel
                 {
